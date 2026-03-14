@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "runtrace"
+version = "0.1.0"
+requires-python = ">=3.8"
+
+dependencies = []
+
+[project.scripts]
+runtrace = "runtrace.__main__:main"
+
+[tool.setuptools]
+packages = ["runtrace"]
+
+[tool.setuptools.package-dir]
+runtrace = "src"
