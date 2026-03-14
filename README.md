@@ -5,7 +5,7 @@ A lightweight Python tool that traces **dynamic file-level dependencies** during
 ## Installation
 
 ```bash
-pip install git+https://github.com/<SaiSathvik6>/runtrace.git
+pip install git+https://github.com/SaiSathvik6/runtrace.git
 ```
 
 ## Usage
